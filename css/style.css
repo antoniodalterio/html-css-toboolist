@@ -11,11 +11,23 @@
     box-sizing: border-box;
 }
 
+/* ----------
+     Common
+   ----------
+*/
 
 body{
     background-color:#f6f8f9 ;
 }
 
+ul{
+    list-style: none;
+}
+
+.intestazioni{
+    color: #434851;
+    
+}
 
 /* ----------
      header
@@ -47,12 +59,25 @@ header {
 */
 
 .contenitore{
-    margin: auto;
-    width: 70%;
+ margin: auto; 
+    width: 70%; /*
     height: 50px;
     background-color: white;
     margin-top: 50px;
-    padding-left: 20px;
+    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; */
+    
+}
+
+.button{
+    margin: auto;
+    
+    height: 50px;
+    background-color: white;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-top: 15px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     
@@ -65,8 +90,8 @@ button{
     border: 0 solid white;
     background-color: #14aaf5;
     color: white;
-    vertical-align: middle;
-    margin-top: 15px;
+    
+    
 }
 
 .button-selection{
@@ -77,3 +102,51 @@ button{
 
 }
 
+/* ----------
+     Sezioni
+   ----------
+*/
+.sezioni{
+    margin-top: 5px;
+    height: 550px;
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+li::before{
+content: "\2713";
+height: 50px;
+width: 50px;
+font-size: 15px;
+border: 2px solid #3acab0 ;
+border-radius:50%;
+text-align: center;
+color: #3acab0;
+margin-right: 10px ;
+font-weight: bold;
+}
+
+
+.elemento{
+    display: inline-block;
+    color: white;
+    width: 80px;
+    height: 25px;
+    background-color: #14aaf5;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px 10px 10px 10px;
+    vertical-align: middle;
+}
+
+.testo-elemento{
+    line-height: 25px;
+}
+
+li{
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #434851;
+}
