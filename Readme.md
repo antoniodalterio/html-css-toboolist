@@ -1,4 +1,4 @@
-# Tobolist
+# Toboolist
 
 ### Lista digitale  con le cose fatte e non fatte in linguaggio html5 e css3
 
