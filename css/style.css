@@ -26,6 +26,7 @@ ul{
 
 .intestazioni{
     color: #434851;
+    margin-top:30px;
     
 }
 
@@ -60,14 +61,7 @@ header {
 
 .contenitore{
  margin: auto; 
-    width: 70%; /*
-    height: 50px;
-    background-color: white;
-    margin-top: 50px;
-    
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px; */
-    
+    width: 70%; 
 }
 
 .button{
@@ -108,7 +102,7 @@ button{
 */
 .sezioni{
     margin-top: 5px;
-    height: 550px;
+    height: 750px;
     background-color: white;
     padding-left: 40px;
     padding-top: 40px;
@@ -127,6 +121,19 @@ margin-right: 10px ;
 font-weight: bold;
 }
 
+.across::before{
+    content: "\2715";
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    border: 2px solid #ff1b1b ;
+    border-radius:50%;
+    text-align: center;
+    color: #ff1b1b;
+    margin-right: 10px ;
+    font-weight: bold;
+    }
+
 
 .elemento{
     display: inline-block;
@@ -138,6 +145,7 @@ font-weight: bold;
     font-size: 12px;
     border-radius: 10px 10px 10px 10px;
     vertical-align: middle;
+    margin-left: 5px;
 }
 
 .testo-elemento{
@@ -145,8 +153,32 @@ font-weight: bold;
 }
 
 li{
-    margin-top: 10px;
+    margin-top: 25px;
     font-size: 19px;
     font-weight: bold;
     color: #434851;
+}
+
+/* ----------
+     COLORAZIONI
+   ----------
+*/
+.orange{
+background-color: #ff9b00;
+}
+
+.purple{
+    background-color:#ab5de6 ; 
+}
+
+.green{
+    background-color: #2cc6ab;
+}
+
+.pink{
+    background-color: #ec4a9d;
+}
+.lightgreen{
+    background-color: #a3d116;
+
 }
