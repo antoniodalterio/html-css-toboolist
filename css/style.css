@@ -1,35 +1,79 @@
 /* ----------
-     header
+     Reset
    ----------
 */
 
 * {
     font-family: 'Roboto', sans-serif;
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+body{
+    background-color:#f6f8f9 ;
+}
+
+
+/* ----------
+     header
+   ----------
+*/
+
 header {
     height: 70px;
+    background-color: white;
+    padding: 15px;
 }
 
 #logo {
     vertical-align: middle;
     display: inline-block;
-    padding: 10px;
+    
 }
 
 .titolo {
     display: inline-block;
     vertical-align: middle;
     font-size: 40px;
+}
+
+
+/* ----------
+     Main
+   ----------
+*/
+
+.contenitore{
+    margin: auto;
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    margin-top: 50px;
+    padding-left: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     
 }
 
-/* ----------
-     header
-   ----------
-*/
+button{
+    width: 72px;
+    height: 27px;
+    border-radius: 5px;
+    border: 0 solid white;
+    background-color: #14aaf5;
+    color: white;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.button-selection{
+    background-color: white;
+    color: gray;
+    width: 90px;
+    border: 1px solid gray;
+
+}
 
