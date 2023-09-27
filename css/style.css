@@ -110,10 +110,11 @@ button{
 
 li::before{
 content: "\2713";
-height: 50px;
-width: 50px;
+display: inline-block;
+height: 20px;
+width: 20px;
 font-size: 15px;
-border: 2px solid #3acab0 ;
+border: 1px solid #3acab0 ;
 border-radius:50%;
 text-align: center;
 color: #3acab0;
@@ -122,15 +123,17 @@ font-weight: bold;
 }
 
 .entity{
-    font-size: 16px;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 .across::before{
     content: "\2715";
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     font-size: 15px;
-    border: 2px solid #ff1b1b ;
+    border: 1px solid #ff1b1b ;
     border-radius:50%;
     text-align: center;
     color: #ff1b1b;
